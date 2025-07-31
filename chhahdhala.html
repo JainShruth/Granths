@@ -3,20 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
     html, body {
       max-width: 100%;
-      overflow-x: hidden; /* Prevent horizontal scroll */
+      overflow-x: hidden;
     }
 
     * {
-      box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+      box-sizing: border-box;
     }
+
     body {
       font-family: 'Noto Sans Devanagari', 'Mangal', sans-serif;
       background-color: #FFF8E1;
       margin: 0;
-      padding: 16px; /* Add inner spacing */
+      padding: 16px;
       font-size: 14px;
       line-height: 1.6;
       color: #222;
@@ -28,15 +34,112 @@
       display: block;
       margin: auto;
     }
+
+    .index-container {
+      width: fit-content;
+      margin: auto;
+      border: 2px solid #ff9900;
+      background-color: #ff9900;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    .index-container h3 {
+      color: white;
+      text-align: center;
+      margin: 0 0 10px 0;
+    }
+
+    .index-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .index-item {
+      background-color: #ffe08c;
+      padding: 8px;
+      font-weight: bold;
+      color: #990000;
+      border-radius: 5px;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .index-item:hover {
+      background-color: #ffcc66;
+    }
+
+    .index-item::before {
+      content: '▶';
+      margin-right: 6px;
+      color: #cc3300;
+    }
+
+    /* Scroll-to-top arrow button */
+    .scroll-top-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #ff9900;
+      color: white;
+      font-size: 22px;
+      padding: 10px 14px;
+      border-radius: 50%;
+      text-decoration: none;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      transition: background-color 0.3s;
+    }
+
+    .scroll-top-btn:hover {
+      background-color: #cc7a00;
+    }
   </style>
 </head>
+
 <body>
-<h2 class="title" style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></h2>
-<h2 class="title" style="text-align: center;"><strong><span style="color: #ff9900;">छहढाला</span></strong><br /><strong><span style="color: #ff9900;">पं दौलतराम कृत</span></strong></h2>
-<h3 class="title" style="text-align: center;"><span style="color: #008000;"><strong>मंगलाचरण</strong></span><br /><span style="color: #993300;"><strong>तीन भुवन में सार, वीतराग विज्ञानता</strong></span><br /><span style="color: #993300;"><strong>शिवस्वरुप शिवकार, नमहुँ त्रियोग सम्हारिकैं ॥१॥</strong></span></h3>
-<div class="poojarth" style="text-align: justify;"><span style="color: #000000;">अर्थ-&nbsp;त्रिभुवन अर्थात् तीन लोकों में सर्वोत्तम वस्तु है, वीतराग विज्ञानता अर्थात् रागद्वेष रहित केवलज्ञान। यही केवलज्ञान आनन्दस्वरूप है और मोक्ष देने वाला है अत: मैं मन-वचन-काय को संभालकर केवलज्ञान को नमस्कार करता हूँ।</span></div>
-<div class="paragraphE" style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></div>
-<h3 class="chapter" style="text-align: center;"><span style="color: #993300;"><strong>ढाल-1</strong></span></h3>
+
+  <!-- Scroll to Top Button -->
+  <a href="#" class="scroll-top-btn" title="शीर्ष पर जाएँ">↑</a>
+
+  <!-- Title -->
+  <h2 class="title" style="text-align: center;">
+    <strong><span style="color: #ff9900;">छहढाला</span></strong><br />
+    <strong><span style="color: #ff9900;">पं दौलतराम कृत</span></strong>
+  </h2>
+
+  <!-- Index -->
+  <div class="index-container">
+    <h3>संबंधित सूची</h3>
+    <div class="index-grid">
+      <a href="#dhal1" class="index-item">छहढाला - प्रथम ढाल</a>
+      <a href="#dhal2" class="index-item">छहढाला - दूसरी ढाल</a>
+      <a href="#dhal3" class="index-item">छहढाला - तृतीय ढाल</a>
+      <a href="#dhal4" class="index-item">छहढाला - चतुर्थ ढाल</a>
+      <a href="#dhal5" class="index-item">छहढाला - पंचम ढाल</a>
+      <a href="#dhal6" class="index-item">छहढाला - छठी ढाल</a>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <h3 class="title" style="text-align: center;">
+    <span style="color: #008000;"><strong>मंगलाचरण</strong></span><br />
+    <span style="color: #993300;"><strong>तीन भुवन में सार, वीतराग विज्ञानता</strong></span><br />
+    <span style="color: #993300;"><strong>शिवस्वरुप शिवकार, नमहुँ त्रियोग सम्हारिकैं ॥१॥</strong></span>
+  </h3>
+
+  <div class="poojarth" style="text-align: justify;">
+    <span style="color: #000000;">अर्थ - त्रिभुवन अर्थात् तीन लोकों में सर्वोत्तम वस्तु है, वीतराग विज्ञानता अर्थात् रागद्वेष रहित केवलज्ञान। यही केवलज्ञान आनन्दस्वरूप है और मोक्ष देने वाला है अत: मैं मन-वचन-काय को संभालकर केवलज्ञान को नमस्कार करता हूँ।</span>
+  </div>
+
+  <!-- First Dhal -->
+  <h3 class="chapter" style="text-align: center;" id="dhal1">
+    <span style="color: #993300;"><strong>ढाल-1</strong></span>
+  </h3>
+
 <h4 style="text-align: center;"><span style="color: #000000;"><strong>&nbsp;ग्रन्थ-रचना का उद्देश्य और जीवों की इच्छा</strong></span></h4>
 <p style="text-align: center;" align="center"><strong><span style="color: #ff9900;"><img src="https://nikkyjain.github.io/jainDataBase/poojas/07_%E0%A4%9B%E0%A4%B9%E0%A4%A2%E0%A4%BE%E0%A4%B2%E0%A4%BE/02_%E0%A4%9B%E0%A4%B9%E0%A4%A2%E0%A4%BE%E0%A4%B2%E0%A4%BE--%E0%A4%AA%E0%A4%82-%E0%A4%A6%E0%A5%8C%E0%A4%B2%E0%A4%A4%E0%A4%B0%E0%A4%BE%E0%A4%AE/images/1.01.jpg" alt="" /></span></strong></p>
 <p style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></p>
@@ -170,7 +273,9 @@
 <div class="paragraphE" style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></div>
 <div class="paragraphE" style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></div>
 <div class="paragraphE" style="text-align: center;">
-<h3 class="chapter" style="text-align: center;"><span style="color: #993300;"><strong>ढाल-2</strong></span></h3>
+
+<h3 class="chapter" style="text-align: center;"id="dhal2"><span style="color: #993300;"><strong>ढाल-2</strong></span></h3>
+
 <strong><span style="color: #ff9900;">&nbsp;</span></strong></div>
 <div class="title" style="text-align: center;"><span style="color: #000000;"><strong>संसार में परिभ्रमण का कारण</strong></span></div>
 <p style="text-align: center;" align="center"><strong><span style="color: #ff9900;"><img src="https://nikkyjain.github.io/jainDataBase/poojas/07_%E0%A4%9B%E0%A4%B9%E0%A4%A2%E0%A4%BE%E0%A4%B2%E0%A4%BE/02_%E0%A4%9B%E0%A4%B9%E0%A4%A2%E0%A4%BE%E0%A4%B2%E0%A4%BE--%E0%A4%AA%E0%A4%82-%E0%A4%A6%E0%A5%8C%E0%A4%B2%E0%A4%A4%E0%A4%B0%E0%A4%BE%E0%A4%AE/images/2.01.jpg" alt="" /></span></strong></p>
@@ -254,8 +359,9 @@
 <div class="chapter" style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></div>
 <div class="chapter" style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></div>
 <div class="chapter" style="text-align: center;">
-<h3 class="chapter" style="text-align: center;"><span style="color: #993300;"><strong>ढाल</strong><strong>-3</strong></span></h3>
-</div>
+
+<h3 class="chapter" style="text-align: center;"id="dhal3"><span style="color: #993300;"><strong>ढाल-3</strong></span></h3></div>
+
 <p style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></p>
 <div class="title" style="text-align: center;"><span style="color: #000000;"><strong>आत्महित, सच्चा सुख वा द्विविध मोक्षमार्ग का लक्षण</strong></span></div>
 <p style="text-align: center;" align="center"><strong><span style="color: #ff9900;"><img src="https://nikkyjain.github.io/jainDataBase/poojas/07_%E0%A4%9B%E0%A4%B9%E0%A4%A2%E0%A4%BE%E0%A4%B2%E0%A4%BE/02_%E0%A4%9B%E0%A4%B9%E0%A4%A2%E0%A4%BE%E0%A4%B2%E0%A4%BE--%E0%A4%AA%E0%A4%82-%E0%A4%A6%E0%A5%8C%E0%A4%B2%E0%A4%A4%E0%A4%B0%E0%A4%BE%E0%A4%AE/images/3.01.jpg" alt="" /></span></strong></p>
@@ -360,7 +466,7 @@
 <div class="chapter" style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></div>
 <div class="chapter" style="text-align: center;">&nbsp;</div>
 <p style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></p>
-<h3 class="chapter" style="text-align: center;"><span style="color: #993300;"><strong>ढाल-4</strong></span></h3>
+<h3 class="chapter" style="text-align: center;"id="dhal4"><span style="color: #993300;"><strong>ढाल-4</strong></span></h3>
 <div class="title" style="text-align: center;"><span style="color: #000000;"><strong>सम्यग्ज्ञान की प्रेरणा</strong></span></div>
 <p style="text-align: center;" align="center"><strong><span style="color: #ff9900;"><img src="https://nikkyjain.github.io/jainDataBase/poojas/07_%E0%A4%9B%E0%A4%B9%E0%A4%A2%E0%A4%BE%E0%A4%B2%E0%A4%BE/02_%E0%A4%9B%E0%A4%B9%E0%A4%A2%E0%A4%BE%E0%A4%B2%E0%A4%BE--%E0%A4%AA%E0%A4%82-%E0%A4%A6%E0%A5%8C%E0%A4%B2%E0%A4%A4%E0%A4%B0%E0%A4%BE%E0%A4%AE/images/4.01.jpg" alt="" /></span></strong></p>
 <p style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></p>
@@ -452,7 +558,7 @@
 <div class="poojarth" style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></div>
 <div class="chapter" style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></div>
 <div class="chapter" style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></div>
-<h3 class="chapter" style="text-align: center;"><span style="color: #993300;"><strong>ढाल-5</strong></span></h3>
+<h3 class="chapter" style="text-align: center;"id="dhal5"><span style="color: #993300;"><strong>ढाल-5</strong></span></h3>
 <div class="title" style="text-align: center;"><span style="color: #000000;"><strong>वैराग्य-जननी बारह भावना</strong></span></div>
 <p style="text-align: center;" align="center"><strong><span style="color: #ff9900;"><img src="https://nikkyjain.github.io/jainDataBase/poojas/07_%E0%A4%9B%E0%A4%B9%E0%A4%A2%E0%A4%BE%E0%A4%B2%E0%A4%BE/02_%E0%A4%9B%E0%A4%B9%E0%A4%A2%E0%A4%BE%E0%A4%B2%E0%A4%BE--%E0%A4%AA%E0%A4%82-%E0%A4%A6%E0%A5%8C%E0%A4%B2%E0%A4%A4%E0%A4%B0%E0%A4%BE%E0%A4%AE/images/5.01.jpg" alt="" /></span></strong></p>
 <p style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></p>
@@ -543,7 +649,7 @@
 <div class="poojarth" style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></div>
 <div class="chapter" style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></div>
 <div class="chapter" style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></div>
-<h3 class="chapter" style="text-align: center;"><span style="color: #993300;"><strong>ढाल-6</strong></span></h3>
+<h3 class="chapter" style="text-align: center;"id="dhal6"><span style="color: #993300;"><strong>ढाल-6</strong></span></h3>
 <div class="title" style="text-align: center;"><span style="color: #000000;"><strong>पंच महाव्रत</strong></span></div>
 <p style="text-align: center;" align="center"><strong><span style="color: #ff9900;"><img src="https://nikkyjain.github.io/jainDataBase/poojas/07_%E0%A4%9B%E0%A4%B9%E0%A4%A2%E0%A4%BE%E0%A4%B2%E0%A4%BE/02_%E0%A4%9B%E0%A4%B9%E0%A4%A2%E0%A4%BE%E0%A4%B2%E0%A4%BE--%E0%A4%AA%E0%A4%82-%E0%A4%A6%E0%A5%8C%E0%A4%B2%E0%A4%A4%E0%A4%B0%E0%A4%BE%E0%A4%AE/images/6.01.jpg" alt="" /></span></strong></p>
 <p style="text-align: center;"><strong><span style="color: #ff9900;">&nbsp;</span></strong></p>
