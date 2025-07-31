@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Sans Devanagari', 'Mangal', sans-serif;
+      background-color: #FFF8E1;
+      margin: 0;
+      padding: 16px;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #222;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: auto;
+    }
+
+    .index-container {
+      width: fit-content;
+      margin: auto;
+      border: 2px solid #ff9900;
+      background-color: #ff9900;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    .index-container h3 {
+      color: white;
+      text-align: center;
+      margin: 0 0 10px 0;
+    }
+
+    .index-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .index-item {
+      background-color: #ffe08c;
+      padding: 8px;
+      font-weight: bold;
+      color: #990000;
+      border-radius: 5px;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .index-item:hover {
+      background-color: #ffcc66;
+    }
+
+    .index-item::before {
+      content: '▶';
+      margin-right: 6px;
+      color: #cc3300;
+    }
+
+    /* Scroll-to-top arrow button */
+    .scroll-top-btn {
+      position: fixed;
+      bottom: 70px;
+      right: 20px;
+      background-color: #ff9900;
+      color: white;
+      font-size: 22px;
+      padding: 10px 14px;
+      border-radius: 50%;
+      text-decoration: none;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      transition: background-color 0.3s;
+    }
+
+    .scroll-top-btn:hover {
+      background-color: #cc7a00;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Scroll to Top Button -->
+  <a href="#" class="scroll-top-btn" title="शीर्ष पर जाएँ">↑</a>
+
+<p style="text-align: center;">&nbsp;</p>
+<div id="index" class="adhikaar" style="text-align: center;">&nbsp;</div>
+<p style="text-align: center;">&nbsp;</p>
+<div style="text-align: center;" align="center"><img src="../../../../../images/hrim.png" alt="" width="20%" /></div>
+<h4 class="gatha" style="text-align: center;"><span style="color: black;">!!<span style="color: purple;"> श्रीसर्वज्ञवीतरागाय नम: </span>!!</span><br /><br />श्रीमद्&zwnj;-भगवत्पूज्यपाद-आचार्य-प्रणीत<br /><br />श्री<br /><span style="font-size: 120px; color: #993300;"> इष्टोपदेश </span><br /><br /></h4>
+<div class="gatha" style="text-align: center;"><span style="color: black;">!!<span style="color: purple;"> नम: श्रीसर्वज्ञवीतरागाय </span>!!</span><br /><br /><strong><span style="font-size: 3vw; color: #ff6600;">ओंकारं बिन्दुसंयुक्तं नित्यं ध्यायन्ति योगिनः<br />कामदं मोक्षदं चैव ॐकाराय नमो नम: ॥1॥</span></strong></div>
+<div class="gatha" style="text-align: center;"><strong><span style="font-size: 3vw; color: #ff6600;"><br />अविरलशब्दघनौघप्रक्षालितसकलभूतलकलंका<br />मुनिभिरूपासिततीर्था सरस्वती हरतु नो दुरितान् ॥2॥</span></strong></div>
+<div class="gatha" style="text-align: center;"><strong><span style="font-size: 3vw; color: #ff6600;"><br />अज्ञानतिमिरान्धानां ज्ञानाञ्जनशलाकया<br />चक्षुरुन्मीलितं येन तस्मै श्रीगुरवे नम: ॥3॥</span></strong><br /><br />
+<div class="comment" style="text-align: justify;">अर्थ : बिन्दुसहित ॐकार को योगीजन सर्वदा ध्याते हैं, मनोवाँछित वस्तु को देने वाले और मोक्ष को देने वाले ॐकार को बार बार नमस्कार हो । निरंतर दिव्य-ध्वनि-रूपी मेघ-समूह संसार के समस्त पापरूपी मैल को धोनेवाली है मुनियों द्वारा उपासित भवसागर से तिरानेवाली ऐसी जिनवाणी हमारे पापों को नष्ट करो । जिसने अज्ञान-रूपी अंधेरे से अंधे हुये जीवों के नेत्र ज्ञानरूपी अंजन की सलाई से खोल दिये हैं, उस श्री गुरु को नमस्कार हो । परम गुरु को नमस्कार हो, परम्परागत आचार्य गुरु को नमस्कार हो ।</div>
+<br /><br /><span style="font-size: 2vw; color: black;">॥ श्रीपरमगुरुवे नम:, परम्पराचार्यगुरुवे नम: ॥</span></div>
+<div class="gatha" style="text-align: center;"><br /><br /><span style="font-size: 2vw; color: darkblue;">सकलकलुषविध्वंसकं, श्रेयसां परिवर्धकं, धर्मसम्बन्धकं, भव्यजीवमन: प्रतिबोधकारकं, पुण्यप्रकाशकं, पापप्रणाशकमिदं शास्त्रं श्री-इष्टोपदेश नामधेयं, अस्य मूल-ग्रन्थकर्तार: श्री-सर्वज्ञ-देवास्तदुत्तर-ग्रन्थ-कर्तार: श्री-गणधर-देवा: प्रति-गणधर-देवास्तेषां वचनानुसार-मासाद्य आचार्य श्री-पूज्यपाद-देव विरचितं ॥ </span><br /><br />
+<div class="comment"><span class="comment">(समस्त पापों का नाश करनेवाला, कल्याणों का बढ़ानेवाला, धर्म से सम्बन्ध रखनेवाला, भव्यजीवों के मन को प्रतिबुद्ध-सचेत करनेवाला यह शास्त्र इष्टोपदेश नाम का है, मूल-ग्रन्थ के रचयिता सर्वज्ञ-देव हैं, उनके बाद ग्रन्थ को गूंथनेवाले गणधर-देव हैं, प्रति-गणधर देव हैं उनके वचनों के अनुसार लेकर आचार्य श्रीपूज्यपाददेव द्वारा रचित यह ग्रन्थ है । सभी श्रोता पूर्ण सावधानी पूर्वक सुनें । )</span></div>
+<br /><br /><span style="color: black; font-size: x-large;">॥ श्रोतार: सावधानतया शृणवन्तु ॥</span><br /><br /><span style="font-size: 2vw; color: darkgreen;">मंगलं भगवान् वीरो मंगलं गौतमो गणी<br />मंगलं कुन्दकुन्दार्यो जैनधर्मोऽस्तु मंगलम्&zwnj; ॥<br />सर्वमंगलमांगल्यं सर्वकल्याणकारकं<br />प्रधानं सर्वधर्माणां जैनं जयतु शासनम्&zwnj; ॥</span><br /><br /><span style="font-size: 2vw; color: darkblue;"><span class="comment">(देव वंदना)</span><br />सुध्यान में लवलीन हो जब, घातिया चारों हने ।<br />सर्वज्ञ बोध विरागता को, पा लिया तब आपने ॥<br />उपदेश दे हितकर अनेकों, भव्य निज सम कर लिये ।<br />रविज्ञान किरण प्रकाश डालो, वीर! मेरे भी हिये ॥<br /><span class="comment">(शास्त्र वंदना)</span><br />स्याद्वाद, नय, षट् द्रव्य, गुण, पर्याय और प्रमाण का ।<br />जड़कर्म चेतन बंध का, अरु कर्म के अवसान का ॥<br />कहकर स्वरूप यथार्थ जग का, जो किया उपकार है ।<br />उसके लिये जिनवाणी माँ को, वंदना शत बार है ॥<br /><span class="comment">(गुरु वंदना)</span><br />नि:संग हैं जो वायुसम, निर्लेप हैं आकाश से ।<br />निज आत्म में ही विहरते, जीवन न पर की आस से ॥<br />जिनके निकट सिंहादि पशु भी, भूल जाते क्रूरता ।<br />उन दिव्य गुरुओं की अहो! कैसी अलौकिक शूरता ॥</span></div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-01" class="title" style="text-align: center;"><a href="#index">मंगलाचरण</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">यस्य स्वयं स्वाभावाप्ति, रभावे कृत्स्नकर्मण:</span><br /><span style="color: #ff6600;">तस्मै संज्ञान-रूपाय नमोऽस्तु परमात्मने ॥1॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">स्&zwj;वयं कर्म सब नाश करि, प्रगटायो निजभाव</span><br /><span style="color: #339966;">परमातम सर्वज्ञ को, वंदो करि शुभ भाव ॥१॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जिनको सम्&zwj;पूर्ण कर्मों के अभाव होने पर स्&zwj;वयं ही स्&zwj;वभाव की प्राप्ति हो गई है, उस सम्&zwj;यग्&zwj;ज्ञानरूप परमात्&zwj;मा को नमस्&zwj;कार हो ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-02" class="title" style="text-align: center;"><a href="#index">आत्&zwj;मा को स्&zwj;वयं ही स्&zwj;वरूप की उपलब्धि कैसे?</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">योग्योपादानयोगेन, दृषद: स्वर्णता मता</span><br /><span style="color: #ff6600;">द्रव्यादिस्वादिसंपत्तावात्मनोऽप्यात्मता मता ॥2॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">स्&zwj;वर्ण पाषाण सुहेतु से, स्&zwj;वयं कनक हो जाय</span><br /><span style="color: #339966;">सुद्रव्&zwj;यादि चारों मिलें, आप शुद्धता थाय ॥२॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>योग्&zwj;य उपादान कारण के संयोग से जैसे पाषाण-विशेष स्&zwj;वर्ण बन जाता है, वैसे ही सुद्रव्&zwj;य सुक्षेत्र आदि रूप सामग्री के मिलने पर जीव भी चैतन्&zwj;य-स्&zwj;वरूप आत्&zwj;मा हो जाता है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-03" class="title" style="text-align: center;"><a href="#index">अव्रत से व्रत धारण श्रेष्ठ</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">वरं व्रतै: पदं दैवं, नाव्रतैर्वत नारकम्</span><br /><span style="color: #ff6600;">छायातपस्थयो र्भेद: प्रतिपालयतोर्महान् ॥3॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">मित्र राह देखते खड़े, इक छाया एक धूप</span><br /><span style="color: #339966;">व्रतपालन से देवपद, अव्रत दुर्गति कूप ॥३॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>व्रतों के द्वारा देव-पद प्राप्&zwj;त करना अच्&zwj;छा है, किन्&zwj;तु अव्रतों के द्वारा नरक-पद प्राप्&zwj;त करना अच्&zwj;छा नहीं है । जैसे छाया और धूप में बैठनेवालों में अन्&zwj;तर पाया जाता है, वैसे ही व्रत और अव्रत के आचरण व पालन करनेवालों में फर्क पाया जाता है ।</div>
+<p style="text-align: justify;">&nbsp;</p>
+<div id="gatha-04" class="title" style="text-align: center;"><a href="#index">व्रत से स्वर्ग-मोक्ष की प्राप्ति</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">यत्र भाव: शिवं दत्ते, द्यौ: कियद्दूरवर्तिनी</span><br /><span style="color: #ff6600;">यो नयत्याशु गव्यूतिं क्रोशार्धे किं स सीदति ॥4॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">आत्&zwj;मभाव यदि मोक्षप्रद, स्&zwj;वर्ग है कितनी दूर</span><br /><span style="color: #339966;">दोय कोस जो ले चले, आध कोस सुख दूर ॥४॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>आत्&zwj;मा में लगा हुआ जो परिणाम भव्&zwj;य प्राणियों को मोक्ष प्रदान करता है, उस मोक्ष देने में समर्थ आत्&zwj;म-परिणाम के लिये स्&zwj;वर्ग कितना दूर है ?</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-05" class="title" style="text-align: center;"><a href="#index">स्वर्ग सुख का वर्णन</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">हृषीकज -मनातङ्कं दीर्घ - कालोपलालितम्</span><br /><span style="color: #ff6600;">नाके नाकौकसां सौख्यं, नाके नाकौकसामिव ॥5॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">इन्द्रियजन्&zwj;य निरोगमय, दीर्घकाल तक भोग्&zwj;य</span><br /><span style="color: #339966;">स्&zwj;वर्गवासि देवानिको, सुख उनही के योग्&zwj;य ॥५॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>स्&zwj;वर्ग में निवास करनेवाले जीवों को स्&zwj;वर्ग में वैसा ही सुख होता है, जैसा कि स्&zwj;वर्ग में रहनेवालों <span class="comment">(देवों)</span> को हुआ करता है, अर्थात् स्&zwj;वर्ग में रहनेवाले देवों का ऐसा अनुपमेय <span class="comment">(उपमा रहित)</span> सुख हुआ करता है कि उस सरीखा अन्&zwj;य सुख बतलाना कठिन ही है । वह सुख इन्द्रियों से पैदा होनेवाला आतंक से रहित और दीर्घ-काल तक बना रहनेवाला होता है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-06" class="title" style="text-align: center;"><a href="#index">इन्द्रिय सुख-दुःख कल्पना जन्य</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">वासनामात्रमेवैतत्सुखं दु:खं च देहिनाम्</span><br /><span style="color: #ff6600;">तथा ह्युद्वेजयन्त्येते, भोगा रोगा इवापदि ॥6॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">विषयों को सुख दु:ख मानते, है अज्ञान प्रसाद</span><br /><span style="color: #339966;">भोग रोगवत् कष्&zwj;ट में, तन मत करत विषाद ॥६॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>देहधारियों को जो सुख और दु:ख होता है, वह केवल कल्&zwj;पना जन्&zwj;य ही है । देखो ! जिन्&zwj;हें लोक में सुख पैदा करनेवाला समझा जाता है, ऐसे कमनीय कामिनी आदिक भोग भी आपत्ति के समय में रोगों की तरह प्राणियों को आकुलता पैदा करनेवाले होते हैं । यही बात सांसारिक प्राणियों के सुख-दु:ख के सम्&zwj;बन्&zwj;ध में है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-07" class="title" style="text-align: center;"><a href="#index">मोह ही अज्ञान</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">मोहेन संवृतं ज्ञानं, स्वभावं लभते न हि</span><br /><span style="color: #ff6600;">मत्त: पुमान् पदार्थानां यथा मदन-कोद्रवै: ॥7॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">मोहकर्म के उदय से, वस्&zwj;तुस्&zwj;वभाव न पात</span><br /><span style="color: #339966;">मदकारी कोदों भखे, उल्&zwj;टा जगत लखात ॥७॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>मोह से ढंका हुआ ज्ञान, वास्&zwj;तविक स्&zwj;वरूप को वैसे ही नहीं जान पाता है, जैसे कि मद पैदा करनेवाले कोद्रव <span class="comment">(कोदों)</span> के खाने से नशैल-बेखबर हुआ आदमी पदार्थों को ठीक-ठीक रूप में नहीं जान पाता है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-08" class="title" style="text-align: center;"><a href="#index">मोही जीव की पहचान</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">वपुर्गृहं धनं दारा:, पुत्रा मित्राणि शत्रव:</span><br /><span style="color: #ff6600;">सर्वथान्यस्वभावानि, मूढ: स्वानि प्रपद्यते ॥8॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">पुत्र मित्र घर तन तिया, धन रिपु आदि पदार्थ</span><br /><span style="color: #339966;">बिल्&zwj;कुल निज से भिन्&zwj;न हैं, मानत मूढ़ निजार्थ ॥८॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>यद्यपि शरीर, घर, धन, स्&zwj;त्री, पुत्र, मित्र, शत्रु आदि सब अन्&zwj;य स्&zwj;वभाव को लिये हुए पर-अन्&zwj;य हैं परंतु मूढ प्राणी मोहनीय-कर्म के जाल में फँसकर इन्&zwj;हें आत्&zwj;मा के समान मानता है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-09" class="title" style="text-align: center;"><a href="#index">संसार का स्वरूप</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">दिग्देशेभ्य: खगा एत्य, संवसन्ति नगे नगे</span><br /><span style="color: #ff6600;">स्वस्वकार्यवशाद्यान्ति, देशे दिक्षु प्रगे प्रगे ॥9॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">दिशा देश से आयकर, पक्षी वृक्ष बसन्&zwj;त</span><br /><span style="color: #339966;">प्रात होत निज कार्यवश, इच्छित देश उड़न्&zwj;त ॥९॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>देखो, भिन्&zwj;न-भिन्&zwj;न दिशाओं व देशों से उड़ उड़कर आते हुए पक्षिगण वृक्षों पर आकर रैनबसेरा करते हैं और सबेरा होने पर अपने अपने कार्य के वश से जुदा-जुदा दिशाओं व देशों में उड़ जाते हैं ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-10" class="title" style="text-align: center;"><a href="#index">दूसरों को दुखी करने से स्वयं दुःख की प्राप्ति</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">विराधक: कथं हन्त्रे जनाय परिकुप्यति</span><br /><span style="color: #ff6600;">त्र्यड्.गुलं पातयन् पद्भ्यां स्वयं दण्डेन पात्यते ॥10॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">अपराधी जन क्&zwj;यों करे, हन्&zwj;ता जनपर क्रोध</span><br /><span style="color: #339966;">दो पग अंगुल महि नमे, आपहि गिरत अबोध ॥१०॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जिसने पहिले दूसरे को सताया या तकलीफ पहुँचाई है, ऐसा पुरूष उस सताये गये और वर्तमान में अपने को मारनेवाले के प्रति क्&zwj;यों गुस्&zwj;सा करता है ? यह कुछ जॅंचता नहीं । अरे ? जो त्र्यंगुल को पैरों से गिराता वह दंडे के द्वारा स्&zwj;वयं गिरा दिया जायगा ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-11" class="title" style="text-align: center;"><a href="#index">अज्ञान से राग-द्वेष द्वारा संसार परिभ्रमण</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">रागद्वेषद्वयीदीर्घ - नेत्राकर्षण- कर्मणा</span><br /><span style="color: #ff6600;">अज्ञानात्सुचिरं जीव:, संसाराब्धौ भ्रमत्यसौ ॥11॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">मथत दूध डोरीनितें, दंड फिरत बहु बार</span><br /><span style="color: #339966;">राग द्वेष अज्ञान से, जीव भ्रमत संसार ॥११॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>यह जीव अज्ञान से रागद्वेषरूपी दो लम्&zwj;बी डोरियों की खींचातानी से संसाररूपी समुद्र में बहुत काल तक घूमता रहता है- परिवर्तन करता रहता है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-12" class="title" style="text-align: center;"><a href="#index">संसार में दुःख</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">विपद्भवपदावर्ते पदिकेवातिवाह्यते</span><br /><span style="color: #ff6600;">यावत्तावद्भवन्त्यन्या: प्रचुरा विपद: पुर: ॥12॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">जबतक एक विपद टले, अन्&zwj;य विपद बहु आय</span><br /><span style="color: #339966;">पदिका जिमि घटियंत्र में, बार बार भरमाय ॥१२॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जबतक संसाररूपी पैर से चलाये जानेवाले घटीयंत्र में एक पटली सरीखी एक विपत्ति भुगतकर तय की जाती है कि उसी समय दूसरी दूसरी बहुत सी विपत्तियाँ सामने आ उपस्थित हो जाती हैं ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-13" class="title" style="text-align: center;"><a href="#index">संसार में सुख की कल्पना व्यर्थ</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">दुरर्ज्येनासुरक्षेणनश्वरेणधनादिना ।</span><br /><span style="color: #ff6600;">स्वस्थंमन्यो जनः कोऽपि ज्वरवानिव सर्पिषा ॥13॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;">कठिन प्राप्&zwj;त संरक्ष्&zwj;य ये, नश्&zwj;वर धन पुत्रादि<br />इनसे सुख को कल्&zwj;पना, जिमि घृत से ज्&zwj;वर व्&zwj;याधि ॥१३॥</div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जैसे कोई ज्&zwj;वरवाला प्राणी घी को खाकर या चिपड़ कर अपने को स्&zwj;वस्&zwj;थ मानने लग जाय, उसी प्रकार कोई एक मनुष्&zwj;य मुश्किल से पैदा किये गये तथा जिसकी रक्षा करना कठिन है और फिर भी नष्&zwj;ट हो जानेवाले हैं, ऐसे धन आदिकों से अपने को सुखी मानने लग जाता है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-14" class="title" style="text-align: center;"><a href="#index">मोही जीव आने वाली विपत्तियों को भी नहीं देखता</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">विपत्तिमात्मनो मूढ:, परेषामिव नेक्षते</span><br /><span style="color: #ff6600;">दह्यमान-मृगाकीर्णवनान्तर - तरुस्थवत् ॥14॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">पर की विपदा देखता, अपनी देखे नाहिं</span><br /><span style="color: #339966;">जलते पशु जा वन विषैं, जड़ तरूपर ठहराहिं ॥१४॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जिसमें अनेकों हिरण दवानल की ज्&zwj;वाला से जल रहे हैं, ऐसे जंगल के मध्&zwj;य में वृक्ष पर बैठे हुए मनुष्&zwj;य की तरह यह संसारी प्राणी दूसरों की तरह अपने ऊपर आनेवाली विपत्तियों का ख्&zwj;याल नहीं करता है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-15" class="title" style="text-align: center;"><a href="#index">मोही धन को काल (प्राण) से भी अधिक चाहता है </a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">आयुर्वृद्धिक्षयोत्कर्ष-, हेतुं कालस्य निर्गमम्</span><br /><span style="color: #ff6600;">वाञ्छतां धनिनामिष्टं, जीवितात्सुतरां धनम् ॥15॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">आयु क्षय धनवृद्धि को, कारण काल प्रमान</span><br /><span style="color: #339966;">चाहत हैं धनवान धन, प्राणनितें अधिकान ॥१५॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>काल का व्&zwj;यतीत होना, आयु के क्षय का कारण है और कालान्&zwj;तर के जैसे ब्&zwj;याज के बढ़ने का कारण है, ऐसे काल के व्&zwj;यतीत होने को जो चाहते हैं, उन्&zwj;हें समझना चाहिये कि अपने जीवन से धन ज्&zwj;यादा इष्&zwj;ट है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-16" class="title" style="text-align: center;"><a href="#index">धन-कमाने की इच्छा - मोह</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">त्यागाय श्रेयसे वित्तमवित्त: सञ्चिनोति य:</span><br /><span style="color: #ff6600;">स्वशरीरं स पङ्केन, स्नास्यामीति विलिम्पति ॥16॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">पुण्&zwj;य हेतु दानादिको, निर्धन धन संचेय</span><br /><span style="color: #339966;">स्&zwj;नान हेतु निज तन कुधी, कीचड़ से लिम्&zwj;पेय ॥१६॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जो निर्धन, पुण्&zwj;य-प्राप्ति होगी इसलिये दान करने के लिये धन कमाता या जोड़ता है, वह 'स्&zwj;नान कर लूँगा' ऐसे ख्&zwj;याल से अपने शरीर को कीचड़ से लपेटता है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-17" class="title" style="text-align: center;"><a href="#index">भोग-उपभोग दुःख के कारण</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">आरम्भे तापकान् प्राप्तावतृप्तिप्रतिपादकान्</span><br /><span style="color: #ff6600;">अन्ते सुदुस्त्यजान् कामान् कामं क: सेवते सुधी: ॥17॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">भोगार्जन दु:खद् महा, भोजन तृष्&zwj;णा बाढ़</span><br /><span style="color: #339966;">अंत त्&zwj;यजत गुरू कष्&zwj;ट हो, को बुध भोगत गाढ़ ॥१७॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>आरंभ में सन्&zwj;ताप के कारण और प्राप्&zwj;त होने पर अतृप्ति के करनेवाले तथा अंत में जो बड़ी मुश्किलों से भी छोड़े नहीं जा सकते, ऐसे भोगोपभोगों को कौन विद्वान् / समझदार ज्&zwj;यादती व आसक्ति के साथ सेवन करेगा ?</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-18" class="title" style="text-align: center;"><a href="#index">शरीर दुःख का कारण</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">भवन्ति प्राप्य यत्सङ्गमशुचीनि शुचीन्यपि</span><br /><span style="color: #ff6600;">स काय: सन्ततापायस्तदर्थं प्रार्थना वृथा ॥18॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">शुचि पदार्थ भी संग ते, महा अशुचि हो जाँय</span><br /><span style="color: #339966;">विघ्&zwj;न करण नित काय हित, भोगेच्&zwj;छा विफलाय ॥१८॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जिसके सम्&zwj;बन्&zwj;ध को पाकर -- जिसके साथ भिड़कर पवित्र भी पदार्थ अपवित्र हो जाते हैं, वह शरीर हमेशा अपायों, उपद्रवों, झंझटों, विघ्&zwj;नों एवं विनाशों सहित हैं, अत: भोगोपभोगों को चाहना व्&zwj;यर्थ है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-19" class="title" style="text-align: center;"><a href="#index">शरीर के उपकार में आत्मा का अपकार</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">यज्जीवस्योपकाराय, तद्देहस्यापकारकम्</span><br /><span style="color: #ff6600;">यद्देहस्योपकाराय, तज्जीवस्यापकारकम् ॥19॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">आतम हित जो करत है, सो तनको अपकार</span><br /><span style="color: #339966;">जो तनका हित करत है, सो जियको अपकार ॥१९॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जो जीव <span class="comment">(आत्मा)</span> का उपकार करनेवाले होते हैं, वे शरीर का अपकार <span class="comment">(बुरा)</span> करनेवाले होते हैं । जो चीजें शरीर का हित या उपकार करनेवाली होती हैं, वही चीजें आत्मा का अहित करनेवाली होती हैं ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-20" class="title" style="text-align: center;"><a href="#index">ध्यान से सभी इष्ट की प्राप्ति</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">इतश्चिन्तामणिर्दिव्य इत: पिण्याकखण्डकम्</span><br /><span style="color: #ff6600;">ध्यानेन चेदुभे लभ्ये क्वाद्रियन्तां विवेकिन: ॥20॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">इत चिंतामणि है महत्, उत खल टूक असार</span><br /><span style="color: #339966;">ध्&zwj;यान उभय यदि देत बुध, किसको मानत सार ॥२०॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>इसी ध्&zwj;यान से दिव्&zwj;य चिंतामणि मिल सकता है, इसी से खली के टुकड़े भी मिल सकते हैं । जब कि ध्&zwj;यान के द्वारा दोनों मिल सकते हैं, तब विवेकी लोग किस ओर आदरबुद्धि करेंगे ?</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-21" class="title" style="text-align: center;"><a href="#index">आत्मा का स्वरूप</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">स्वसंवेदन सुव्यक्तस्तनुमात्रो निरत्यय:</span><br /><span style="color: #ff6600;">अत्यन्तसौख्यवानात्मा, लोकालोकविलोकन: ॥21॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">निज अनुभव से प्रगट है, नित्&zwj;य शरीर-प्रमान</span><br /><span style="color: #339966;">लोकालोक निहारता, आतम अति सुखवान ॥२१॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>आत्&zwj;मा लोक और अलोक को देखने जाननेवाला, अत्&zwj;यन्&zwj;त अनंत सुख स्&zwj;वभाववाला, शरीरप्रमाण, नित्&zwj;य, स्&zwj;वसंवेनदन से तथा कहे हुए गुणों से योगिजनों द्वारा अच्&zwj;छी तरह अनुभव में आया हुआ है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-22" class="title" style="text-align: center;"><a href="#index">मन और इन्द्रियों को वश में कर ध्यान करें</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">संयम्य करणग्राममेकाग्रत्वेन चेतस:</span><br /><span style="color: #ff6600;">आत्मानमात्मवान् ध्यायेदात्मनैवात्मनि स्थितम् ॥22॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">मन को कर एकाग्र, सब इंद्रिय-विषय मिटाय</span><br /><span style="color: #339966;">आतमज्ञानी आत्&zwj;म में, निज को निज से ध्&zwj;याय ॥२२॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>मन की एकाग्रता से इन्द्रियों को वश में कर ध्&zwj;वस्&zwj;त-नष्&zwj;ट कर दी है स्&zwj;वच्&zwj;छन्&zwj;द वृत्ति जिसने ऐसा पुरूष अपने में ही स्थित आत्&zwj;मा को अपने ही द्वारा ध्&zwj;यावे ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-23" class="title" style="text-align: center;"><a href="#index">वैयावृत्ति की प्रेरणा</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">अज्ञानोपास्तिरज्ञानं, ज्ञानं ज्ञानिसमाश्रय:</span><br /><span style="color: #ff6600;">ददाति यत्तु यस्यास्ति, सुप्रसिद्धमिदं वच: ॥23॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">अज्ञ-भक्ति अज्ञान को, ज्ञान-भक्ति दे ज्ञान</span><br /><span style="color: #339966;">लोकोक्&zwj;ती जो जो धरे, करे सो ताको दान ॥२३॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>अज्ञान कहिये ज्ञान से रहित शरीरादिक की सेवा अज्ञान को देती है, और ज्ञानी पुरूषों की सेवा ज्ञान को देती है । यह बात प्रसिद्ध है, कि जिसके पास जो कुछ होता है, वह उसी को देता है, दूसरी चीज जो उसके पास है नहीं, वह दूसरे को कहाँ से देगा ?</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-24" class="title" style="text-align: center;"><a href="#index">ध्यान द्वारा कर्मों की निर्जरा</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">परीषहाद्यविज्ञानादास्रवस्य निरोधिनी</span><br /><span style="color: #ff6600;">जायतेऽध्यात्मयोगेन, कर्मणामाशु निर्जरा ॥24॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">परिषहादि अनुभव बिना, आतम-ध्यान प्रताप</span><br /><span style="color: #339966;">शीघ्र ससंवर निर्जरा, होत कर्म की आप ॥२४॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>आत्&zwj;मा में आत्&zwj;मा के चिंतवनरूप ध्&zwj;यान से परीषहादिक का अनुभव न होने से कर्मों के आगमन को रोकनेवाली कर्म-निर्जरा शीघ्र होती है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-25" class="title" style="text-align: center;"><a href="#index">आत्मा में आत्मा द्वारा आत्मा का ध्यान</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">कटस्य कत्र्ताहमिति, सम्बन्ध: स्याद् द्वयोद्र्वयो:</span><br /><span style="color: #ff6600;">ध्यानं ध्येयं यदात्मैव, सम्बन्ध: कीदृशस्तदा ॥25॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">'कट का मैं कर्तार हूँ' यह द्विष्&zwj;ठ सम्&zwj;बन्&zwj;ध</span><br /><span style="color: #339966;">आप हि ध्&zwj;याता ध्&zwj;येय जहँ, कैसे भिन्&zwj;न सम्&zwj;बन्&zwj;ध ॥२५॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>'मैं चटाई का बनानेवाला हूँ' इस तरह जुदा-जुदा दो पदार्थों में संबंध हुआ करता है । जहाँ आत्&zwj;मा ही ध्&zwj;यान, ध्&zwj;याता <span class="comment">(ध्&zwj;यान करनेवाला)</span> और ध्&zwj;येय हो जाता है, वहाँ संबंध कैसा ?</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-26" class="title" style="text-align: center;"><a href="#index">ममत्व भाव बंध का करण, अत: हेय</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">बध्यते मुच्यते जीव:, सममो निर्मम: क्रमात्</span><br /><span style="color: #ff6600;">तस्मात्सर्वप्रयत्नेन, निर्ममत्वं विचिन्तयेत् ॥26॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">मोही बाँधत कर्म को, निर्मोही छुट जाय</span><br /><span style="color: #339966;">यातें गाढ़ प्रयत्&zwj;न से, निर्ममता उपजाय ॥२६॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>ममतावाला जीव बँधता है और ममता रहित जीव मुक्&zwj;त होता है । इसलिये हर तरह पूरी कोशिश के साथ निर्ममता का ही ख्&zwj;याल रक्खें ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-27" class="title" style="text-align: center;"><a href="#index">भेद-ज्ञान की प्रेरणा</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">एकोऽहं निर्मम: शुद्धो, ज्ञानी योगीन्द्रगोचर:</span><br /><span style="color: #ff6600;">बाह्या: संयोगजा भावा, मत्त: सर्वेऽपि सर्वथा ॥27॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">मैं इक निर्मम शुद्ध हूँ, ज्ञानी योगीगम्&zwj;य</span><br /><span style="color: #339966;">कर्मोदय से भाव सब, मोतें पूर्ण अगम्&zwj;य ॥२७॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>मैं एक, ममता रहित, शुद्ध, ज्ञानी, योगीन्&zwj;द्रों के द्वारा जानने लायक हूँ । संयोगजन्&zwj;य जितने भी देहादिक पदार्थ हैं, वे मुझसे सर्वथा भिन्&zwj;न हैं ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-28" class="title" style="text-align: center;"><a href="#index">देह के सम्बन्ध को दुःख का करण जानकर छोडो </a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">दु:खसंदोहभागित्वं, संयोगादिह देहिनाम्</span><br /><span style="color: #ff6600;">त्यजाम्येनं तत: सर्वं, मनोवाक्कायकर्मभि: ॥28॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">प्राणी जा संयोगतें, दु:ख समूह लहात</span><br /><span style="color: #339966;">यातें मन वच काय युत, हूँ तो सर्व तजात ॥२८॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>इस संसार में देहादिक के सम्&zwj;बन्&zwj;ध से प्राणियों को दु:ख-समूह भोगना पड़ता है - अनंत क्&zwj;लेश भोगने पड़ते हैं, इसलिये इस समस्&zwj;त संबंध को जो कि मन, वचन, काय की क्रिया से हुआ करते हैं, मन से, वचन से, काय से छोड़ता हूँ ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-29" class="title" style="text-align: center;"><a href="#index">देह से भिन्नता</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">न मे मृत्यु: कुतो भीतिर्न मे व्याधि: कुतो व्यथा</span><br /><span style="color: #ff6600;">नाहं बालो न वृद्धोऽहं, न युवैतानि पुद्गले ॥29॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">मरण रोग मोमें नहीं, तातें सदा निशंक</span><br /><span style="color: #339966;">बाल तरूण नहिं वृद्ध हूँ, ये सब पुद्गल अंक ॥२९॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>मेरी मृत्&zwj;यु नहीं, तब डर किसका ? मुझे व्&zwj;याधि नहीं, तब पीड़ा कैसे ? न मैं बालक हूँ, न बूढ़ा हूँ, न जवान हूँ । ये सब बातें <span class="comment">(दशाएँ)</span> पुद्गल में ही पाई जाती हैं ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-30" class="title" style="text-align: center;"><a href="#index">भोगों की इच्छा व्यर्थ</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">भुक्तोज्झिता मुहुर्मोहान्मया सर्वेऽपि पुद्गला:</span><br /><span style="color: #ff6600;">उच्छिष्टेष्विव तेष्वद्य, मम विज्ञस्य का स्पृहा ॥30॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">सब पुद्गलको मोहसे, भोग भोगकर त्&zwj;याग</span><br /><span style="color: #339966;">मैं ज्ञानी करता नहीं, उस उच्छिष्&zwj;ट में राग ॥३०॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>मोह से मैंने सभी पुद्गलों को बार-बार भोगा, और छोड़ा । भोग भोगकर छोड़ दिया । अब जूठन के लिए <span class="comment">(मानिन्&zwj;द)</span> उन पदार्थों में मेरी क्&zwj;या चाहना हो सकती है ? अर्थात् उन भोगों के प्रति मेरी चाहना-इच्&zwj;छा ही नहीं है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-31" class="title" style="text-align: center;"><a href="#index">जीव मोह को आसानी से क्यों नहीं छोड़ता</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">कर्म कर्म हिताबन्धि, जीवो जीवहितस्पृह:</span><br /><span style="color: #ff6600;">स्वस्वप्रभावभूयस्त्वे, स्वार्थं को वा न वाञ्छति ॥31॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">कर्म कर्महितकार है, जीव जीवहितकार</span><br /><span style="color: #339966;">निज प्रभाव बल देखकर, को न स्&zwj;वार्थ करतार ॥३१॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>कर्म कर्म का हित चाहते हैं । जीव जीव का हित चाहता है । सो ठीक ही है, अपने-अपने प्रभाव के बढ़ने पर कौन अपने स्&zwj;वार्थ को नहीं चाहता । अर्थात् सब अपना प्रभाव बढ़ाते ही रहते हैं ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-32" class="title" style="text-align: center;"><a href="#index">अपनी भलाई में लगाने की प्रेरणा</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">परोपकृतिमुत्सृज्य, स्वोपकारपरो भव</span><br /><span style="color: #ff6600;">उपकुर्वन्परस्याज्ञो, दृश्यमानस्य लोकवत् ॥32॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">प्रगट अन्&zwj;य देहादिका, मूढ़ करत उपकार</span><br /><span style="color: #339966;">सज्&zwj;जनवत् या भूल को, तज कर निज उपकार ॥३२॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>पर के उपकार करने को छोड़कर अपने उपकार करने में तत्&zwj;पर हो जाओ । इंद्रियों के द्वारा दिखाई देते हुए शरीरादिकों का उपकार करते हुए तुम अज्ञ <span class="comment">(वास्&zwj;तविक वस्&zwj;तुस्थितिको न जाननेवाले)</span> हो रहे हो । तुम्&zwj;हें चाहिये कि दुनियाँ की तरह तुम भी अपनी भलाई करने में लगो ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-33" class="title" style="text-align: center;"><a href="#index">स्व-पर के भेद को जानना - मोक्ष का कारण</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">गुरूपदेशादभ्यासात्संवित्ते: स्वपरान्तरम्</span><br /><span style="color: #ff6600;">जानाति य: स जानाति, मोक्षसौख्यं निरन्तरम् ॥33॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">गुरू उपदेश अभ्&zwj;यास से, निज अनुभव से भेद</span><br /><span style="color: #339966;">निज-पर को जो अनुभवे, लहै स्&zwj;वसुख बेखेद ॥३३॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जो गुरू के उपदेश से अभ्&zwj;यास करते हुए अपने ज्ञान <span class="comment">(स्&zwj;व-संवेदन)</span> से अपने और पर के अन्&zwj;तर को <span class="comment">(भेद को)</span> जानता है, वह मोक्ष-संबंधी सुख का अनुभव करता रहता है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-34" class="title" style="text-align: center;"><a href="#index">अपना गुरु आप ही है</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">स्वस्मिन् सदभिलाषित्वादभीष्टज्ञापकत्वत:</span><br /><span style="color: #ff6600;">स्वयं हितप्रयोक्तृत्वादात्मैव गुरुरात्मन: ॥34॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">आपहि निज हित चाहता, आपहि ज्ञाता होय</span><br /><span style="color: #339966;">आपहि निज हित प्रेरता, निज गुरू आपहि होय ॥३४॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जो सत् का कल्&zwj;याण का वांछक होता है, चाहे हुए हित के उपायों को जतलाता है, तथा हित का प्रवर्तक होता है, वह गुरू कहलाता है । जब आत्&zwj;मा स्&zwj;वयं ही अपने में सत् की - कल्&zwj;याण की यानी मोक्ष-सुख की अभिलाषा करता है, अपने द्वारा चाहे हुए मोक्ष-सुख के उपायों को जतलानेवाला है, तथा मोक्ष-सुख के उपायों में अपने आपको प्रवर्तन करानेवाला है, इसलिये अपना गुरू आप ही है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-35" class="title" style="text-align: center;"><a href="#index">पर ज्ञान का कारण नहीं, निमित्त-मात्र होता है</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">नाज्ञो विज्ञत्वमायाति, विज्ञो नाज्ञत्वमृच्छति</span><br /><span style="color: #ff6600;">निमित्तमात्र-मन्यस्तु, गतेर्धर्मास्तिकायवत् ॥35॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">मूर्ख न ज्ञानी हो सके, ज्ञानी मूर्ख न होय</span><br /><span style="color: #339966;">निमित्&zwj;त मात्र पर जान, जिमि गति धर्मतें होय ॥३५॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>पर के कारण मूर्ख ज्ञानी नहीं हो सकता और ज्ञानी मूर्ख नहीं हो सकता । पर पदार्थ धर्मास्तिकाय के समान निमित्त-मात्र है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-36" class="title" style="text-align: center;"><span class="incFontSz">&nbsp;</span><a href="#index">एकान्त में क्षोभ-रहित होकर आत्मा में स्थित रहने का उपदेश</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">अभवच्चित्तविक्षेप, एकान्ते तत्त्वसंस्थित:</span><br /><span style="color: #ff6600;">अभ्यस्येदभियोगेन, योगी तत्त्वं निजात्मन: ॥36॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">क्षोभ रहित एकान्&zwj;तमें, तत्त्वज्ञान चित धाय</span><br /><span style="color: #339966;">सावधान हो संयमी, निज स्&zwj;वरूप को भाय ॥३६॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जिसके चित्&zwj;त में क्षोभ नहीं है, जो आत्&zwj;म-स्&zwj;वरूप में स्थित हैं, ऐसा योगी सावधानी पूर्वक एकान्&zwj;त स्&zwj;थान में अपने आत्&zwj;मा के स्&zwj;वरूप का अभ्&zwj;यास करे ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-37" class="title" style="text-align: center;"><a href="#index">आत्मानुभवी के लक्षण</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">यथा यथा समायाति, संवित्तौ तत्त्वमुत्तमम्</span><br /><span style="color: #ff6600;">तथा तथा न रोचन्ते, विषया: सुलभा अपि ॥37॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">जस जस आतम तत्त्वमें, अनुभव आता जाय</span><br /><span style="color: #339966;">तस तस विषय सुलभ्&zwj;य भी, ताको नहीं सुहाय ॥३७॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>ज्&zwj;यों ज्&zwj;यों संवित्ति <span class="comment">(स्&zwj;वानुभव)</span> में उत्&zwj;तम तत्त्वरूप का अनुभवन होता है, त्&zwj;यों त्&zwj;यों उस योगी को आसानी से प्राप्&zwj;त होनेवाले भी शिष्&zwj;य अच्&zwj;छे नहीं लगते ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-38" class="title" style="text-align: center;"><a href="#index">आत्मा में रत रहने वाले को विषय भोग अरुचिकर</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">यथा यथा न रोचन्ते, विषया: सुलभा अपि</span><br /><span style="color: #ff6600;">तथा तथा समायाति, संवित्तौ तत्त्वमुत्तमम् ॥38॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">जस जस विषय सुलभ्&zwj;य भी, ताको नहीं सुहाय</span><br /><span style="color: #339966;">तस तस आतम तत्त्व में, अनुभव बढ़ता जाय ॥३८॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>ज्&zwj;यों-ज्&zwj;यों सहज में भी प्राप्&zwj;त होनेवाले इन्द्रिय विषय-भोग रुचिकर प्रतीत नहीं होते हैं, त्&zwj;यों त्&zwj;यों स्&zwj;वात्&zwj;म-संवेदन में निजात्&zwj;मानुभव की परिणति वृद्धि को प्राप्&zwj;त होती रहती है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-39" class="title" style="text-align: center;"><a href="#index">योगी के लिए समस्त संसार एक इंद्रजाल</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">निशामयति निश्शेषमिन्द्रजालोपमं जगत्</span><br /><span style="color: #ff6600;">स्पृहयत्यात्मलाभाय, गत्वान्यत्रानुतप्यते ॥39॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">इन्&zwj;द्रजाल सम देख जग, निज अनुभव रुचि लात</span><br /><span style="color: #339966;">अन्&zwj;य विषय में जात यदि, तो मन में पछतात ॥३९॥</span></div>
+<div class="gadya" style="text-align: justify;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>योगी समस्&zwj;त संसार को इन्&zwj;द्रजाल के समान समझता है । आत्&zwj;मस्&zwj;वरूप की प्राप्ति के लिये अभिलाषा करता है । तथा यदि किसी अन्&zwj;य विषय में उलझ जाता, या लग जाता है तो पश्&zwj;चाताप करता है ।</div>
+<p style="text-align: justify;">&nbsp;</p>
+<div id="gatha-40" class="title" style="text-align: center;"><a href="#index">योगी एकान्त-प्रिय होता है</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">इच्छत्येकान्तसंवासं निर्जनं जनितादर:</span><br /><span style="color: #ff6600;">निज कार्यवशात्किञ्चिदुक्त्वा विस्मरति द्रुतम् ॥40॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">निर्जनता आदर करत, एकांत सवास विचार</span><br /><span style="color: #339966;">निज कारजवश कुछ कहे, भूल जात उस बार ॥४०॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>निर्जनता को चाहनेवाला योगी एकान्&zwj;तवास की इच्&zwj;छा करता है और निज कार्य के वश से कुछ कहे भी तो उसे जल्&zwj;दी ही भुला देता है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-41" class="title" style="text-align: center;"><a href="#index">आत्म-स्वरूप में स्थिर के सभी व्यवहार गौण</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">ब्रुवन्नपि हि न ब्रूते गच्छन्नपि न गच्छति</span><br /><span style="color: #ff6600;">स्थिरीकृतात्मतत्त्वस्तु, पश्यन्नपि न पश्यति ॥41॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">देखत भी नहिं देखते, बोलत बोलत नाहिं</span><br /><span style="color: #339966;">दृढ़ प्रतीत आतममयी, चालत चालत नाहिं ॥४१॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जिसने आत्&zwj;म-स्&zwj;वरूप के विषय में स्थिरता प्राप्&zwj;त कर ली है, ऐसा योगी बोलते हुए भी नहीं बोलता, चलते हुए भी नहीं चलता और देखते हुए भी नहीं देखता है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-42" class="title" style="text-align: center;"><a href="#index">योगी विकल्पातीत होता है</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">किमिदं कीदृशं कस्य, कस्मात्क्वेत्यविशेषयन्</span><br /><span style="color: #ff6600;">स्वदेहमपि नावैति योगी योगपरायण: ॥42॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">क्&zwj;या कैसा किसका किसमें, कहाँ यह आतम राम</span><br /><span style="color: #339966;">तज विकल्&zwj;प निज देह न जाने, योगी निज विश्राम ॥४२॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>ध्&zwj;यान में लगा हुआ योगी यह क्&zwj;या है ? कैसा है ? किसका है ? क्&zwj;यों है ? कहाँ है ? इत्&zwj;यादिक विकल्&zwj;पों को न करते हुए अपने शरीर को भी नहीं जानता ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-43" class="title" style="text-align: center;"><a href="#index">पर के संस्कार के त्याग का उपदेश</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">यो यत्र निवसन्नास्ते, स तत्र कुरुते रतिम्</span><br /><span style="color: #ff6600;">यो यत्र रमते तस्मादन्यत्र स न गच्छति ॥43॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">जो जामें बसता रहे, सो तामें रुचि पाय</span><br /><span style="color: #339966;">जो जामें रम जात है, सो ता तज नहिं जाय ॥४३॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जो जहाँ निवास करने लग जाता है, वह वहाँ रमने लग जाता है और जो जहाँ लग जाता है, वह वहाँ से फिर हटता नहीं है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-44" class="title" style="text-align: center;"><a href="#index">पर पदार्थों से अस्संग ध्यान से निर्जरा</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">अगच्छंस्तद्विशेषाणामनभिज्ञश्च जायते</span><br /><span style="color: #ff6600;">अज्ञाततद्विशेषस्तु, बध्यते न विमुच्यते ॥44॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">वस्&zwj;तु विशेष विकल्&zwj;प को, नहिं करता मतिमान</span><br /><span style="color: #339966;">स्वात्&zwj;मनिष्&zwj;ठता से छुटत, नहिं बँधता गुणवान ॥४४॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>अध्&zwj;यात्&zwj;म से दूसरी जगह प्रवृत्ति न करता हुआ योगी, शरीरादिक की सुन्&zwj;दरता असुन्&zwj;दरता आदि धर्मों की ओर विचार नहीं करता और जब उनके विशेषों को नहीं जानता, तब वह बंध को प्राप्&zwj;त नहीं होता, किंतु विशेष रूप से छूट जाता है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-45" class="title" style="text-align: center;"><a href="#index">अपने आपके लिए ही उद्यम का उपदेश</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">पर: परस्ततो दु:खमात्मैवात्मा तत: सुखम्</span><br /><span style="color: #ff6600;">अत एव महात्मानस्तन्निमित्तं कृतोद्यमा: ॥45॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">पर पर तातें दु:ख हो, निज निज हो सुखदाय</span><br /><span style="color: #339966;">महापुरूष उद्यम किया, निज हितार्थ मन लाय ॥४५॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>दूसरा दूसरा ही है, इसलिये उससे दु:ख होता है, और आत्&zwj;मा आत्&zwj;मा ही है, इसलिये उससे सुख होता है । इसीलिये महात्&zwj;माओं ने आत्&zwj;मा के लिये ही उद्यम किया है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-46" class="title" style="text-align: center;"><a href="#index">अज्ञानी को कर्म नहीं छोड़ते</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">अविद्वान् पुद्गलद्रव्यं योऽभिनन्दति तस्य तत्</span><br /><span style="color: #ff6600;">न जातु जन्तो: सामीप्यं,चतुर्गतिषु मुञ्चति ॥46॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">पुद्गल को निज जानकर, अज्ञानी रमजाय</span><br /><span style="color: #339966;">चहुँगति में ता संग को, पुद्गल नहीं तजाय ॥४६॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जो अज्ञानी पुद्गल-द्रव्य में रमता है, उसे पुद्गल अपने साथ चारों गतियों में नहीं छोड़ता हैं ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-47" class="title" style="text-align: center;"><a href="#index">आत्म-ध्यान से सुख की प्राप्ति</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">आत्मानुष्ठाननिष्ठस्य, व्यवहारबहि: स्थिते:</span><br /><span style="color: #ff6600;">जायते परमानन्द: कश्चिद्योगेन योगिन: ॥47॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">ग्रहण त्&zwj;याग से शून्&zwj;य जो, निज आतम लवलीन</span><br /><span style="color: #339966;">योगी को हो ध्&zwj;यान से, कोइ परमानंद नवीन ॥४७॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>व्यवहार को छोड़कर आत्मा में स्थित योगी को योग के बल से कोई विचित्र प्रकार का परमानंद प्राप्त होता है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-48" class="title" style="text-align: center;"><a href="#index">ध्यान का फल</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">आनन्दो निर्दहत्युद्धं कर्मेन्धनमनारतम्</span><br /><span style="color: #ff6600;">न चासौ खिद्यते योगी, बहिर्दु:खेष्वचेतन: ॥48॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">निजानंद नित दहत है, कर्मकाष्&zwj;ठ अधिकाय</span><br /><span style="color: #339966;">बाह्य दु:ख नहिं वेदता, योगी खेद न पाय ॥४८॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>जैसे अग्नि, ईन्&zwj;धन को जला डालता है, उसी तरह आत्&zwj;मा में पैदा हुआ परमानंद, हमेशा से चले आए प्रचुर कर्मों को अर्थात् कर्म-सन्&zwj;तति को जला डालता है, और आनंद सहित योगी, बाहरी दु:खों के - परीषह उपसर्ग-संबंधी क्&zwj;लेशों के अनुभव से रहित हो जाता है । जिससे खेद को <span class="comment">(संक्&zwj;लेश को)</span> प्राप्&zwj;त नहीं होता ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-49" class="title" style="text-align: center;"><a href="#index">मुमुक्षुओं को सम्यग्ज्ञान की भावना का उपदेश</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">अविद्याभिदुरं ज्योति:, परं ज्ञानमयं महत्</span><br /><span style="color: #ff6600;">तत्प्रष्टव्यं तदेष्टव्यं, तद्द्रष्टव्यं मुमुक्षुभि: ॥49॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">पूज्&zwj;य अविद्या-दूर यह, ज्&zwj;योति ज्ञानमय सार</span><br /><span style="color: #339966;">मोक्षार्थी पूछो चहो, अनुभव करो विचार ॥४९॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>अविद्या को दूर करनेवाली महान् उत्&zwj;कृष्&zwj;ट ज्ञानमयी ज्&zwj;योति है सो मुमुक्षुओं <span class="comment">(मोक्षाभिलाषियों)</span> को उसी के विषय में पूछना चाहिये, उसी की बांछा करनी चाहिये और उसे ही अनुभव में लाना चाहिये ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-50" class="title" style="text-align: center;"><a href="#index">जीव-पुद्गल भिन्नता ही सारभूत</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">जीवोऽन्य: पुद्गलश्चान्य इत्यसौ तत्त्वसंग्रह:</span><br /><span style="color: #ff6600;">यदन्यदुच्यते किञ्चित्सोऽस्तु तस्यैव विस्तर: ॥50॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">जीव जुदा पुद्गल जुदा, यही तत्त्व का सार</span><br /><span style="color: #339966;">अन्&zwj;य कछू व्&zwj;याख्&zwj;यान जो, याही का विस्&zwj;तार ॥५०॥</span></div>
+<div class="gadya" style="text-align: justify;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>'जीव जुदा है, पुद्गल जुदा है' बस इतना ही तत्त्व के कथन का सार है, इसी में सब कुछ आ गया । इसके सिवाय जो कुछ भी कहा जाता है, वह सब इसी का विस्&zwj;तार है ।</div>
+<p style="text-align: center;">&nbsp;</p>
+<div id="gatha-51" class="title" style="text-align: center;"><a href="#index">उपसंहार और टीकाकार द्वारा प्रशस्ति</a><span class="decFontSz"> -</span></div>
+<div class="gatha" style="text-align: center;"><span style="color: #ff6600;">इष्टोपदेशमिति सम्यगधीत्य धीमान्,</span><br /><span style="color: #ff6600;">मानापमानसमतां स्वमताद्वितन्य ॥</span><br /><span style="color: #ff6600;">मुक्ताग्रहो विनिवसन् सजने वने वा,</span><br /><span style="color: #ff6600;">मुक्तिश्रियं निरुपमामुपयाति भव्य: ॥51॥</span></div>
+<div class="gatha" style="text-align: center;">&nbsp;</div>
+<div class="gadya" style="text-align: center;"><span style="color: #339966;">इष्टरूप उपदेश को, पढ़े सुबुद्धी भव्&zwj;य</span><br /><span style="color: #339966;">मान अपमान में साम्&zwj;यता, निज मन से कर्तव्&zwj;य ॥</span><br /><span style="color: #339966;">आग्रह छोड़ स्&zwj;वग्राम में, वा वन में सु वसेय</span><br /><span style="color: #339966;">उपमा रहित स्&zwj;वमोक्षश्री, निजकर सहजहि लेय ॥५१॥</span></div>
+<div class="gadya" style="text-align: center;">&nbsp;</div>
+<div class="paragraph" style="text-align: justify;"><strong><span style="color: darkmagenta;">अन्वयार्थ : </span></strong>इस प्रकार 'इष्&zwj;टोपदेश' को भली प्रकार पढ़कर-मनन कर हित-अहित की परीक्षा करने में दक्ष-निपुण होता हुआ भव्&zwj;य अपने आत्&zwj;म-ज्ञान से मान और अपमान में समता का विस्&zwj;तार कर छोड़ दिया है आग्रह जिसने, ऐसा होकर नगर अथवा वन में विधिपूर्वक रहता हुआ उपमा-रहित मुक्तिरूपी लक्ष्&zwj;मी को प्राप्&zwj;त करता है ।</div>
